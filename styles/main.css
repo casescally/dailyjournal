@@ -16,7 +16,9 @@ body {
     background-color: darkslategray;
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
+    flex-direction: row;
     padding: 3%;
+    justify-content: center;
 }
 
 form {
@@ -25,7 +27,6 @@ form {
     flex-direction: column;
     background-color: skyblue;
     border: 3px solid black;
-    z-index: 1;
 }
 
 fieldset {
@@ -34,6 +35,42 @@ fieldset {
     flex-direction: column;
 }
 
-div.btn {
+div.buttons {
     display: flex;
+    flex-direction: row;   
+}
+
+.notes {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: skyblue;
+    border: 3px solid black;
+}
+
+section.saved-notes {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: skyblue;
+    border: 3px solid black;   
+}
+
+div.entry__date, div.entry__conceptsCovered, div.entry__body  {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+
+.heading, #submit.button, #showEntries.button {
+    text-align: center;
+    padding: 0.5em;
+    margin: 0.5em;
+}
+
+div.buttons {
+    display: flex;
+    flex-direction: row;
+        justify-content: space-evenly;
 }

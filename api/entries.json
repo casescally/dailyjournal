@@ -5,7 +5,14 @@
       "concepts": "EventHub and querySelector",
       "textArea": "Today I finally fixed my daily journal application, it had an issue where I was using the wrong syntax in the querySelector that targets where the entry data will be displayed. Also nothing was inside of the container that I was trying to use as my eventHub, so I just gave the body of the index.html the eventHub id and everything worked.",
       "mood": "Good",
-      "id": 3
+      "id": 1
+    },
+    {
+      "date": "2020-02-29",
+      "concepts": "Flexbox",
+      "textArea": "Today I refactored an old project to incorporate flexbox",
+      "mood": "Good",
+      "id": 2
     }
   ]
 }
